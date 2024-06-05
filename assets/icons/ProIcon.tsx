@@ -6,7 +6,7 @@ const ProIcon = ({ size = 24, labelSize = 8 }: { size: number, labelSize: number
     return (
         <View flexDirection='row'>
             <Icon as={CrownIcon} h={size} w={size} fill={'white'} />
-            <Text position='absolute' top={-4} right={-8} px={4} fontSize={labelSize} color='white' rounded={"$lg"} bg='#FF4081'>Pro</Text>
+            <Text position='absolute' top={-4} right={-8} px={4} fontSize={labelSize} color='white' rounded={"$2xl"} bg='#FF4081'>Pro</Text>
         </View>
     )
 }

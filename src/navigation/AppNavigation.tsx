@@ -1,7 +1,8 @@
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import React from 'react';
 import { Favourite, History, Home, Scanner, Settings } from '../screens';
-import { TabBar, TabbarHeader } from '../components';
+import { TabBar, TabbarHeader, TabbarIcon } from '../components';
+import { FourSquareIcon } from '../../assets/icons/Icons';
 
 const Tab = createBottomTabNavigator();
 const AppNavigation = () => {
@@ -9,7 +10,6 @@ const AppNavigation = () => {
         <Tab.Navigator
             tabBar={props => <TabBar {...props} />}
             screenOptions={{
-                // headerShown: false,
                 tabBarStyle: {
                     backgroundColor: '#171717',
                     borderTopColor: '#171717',
