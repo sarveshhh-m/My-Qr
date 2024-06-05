@@ -16,7 +16,7 @@ const Home = () => {
 
                     data={data.homeScreenData}
                     renderItem={({ item }) => (<View borderRadius={"$3xl"} p={16} rowGap={"$4"} bg='#ffffff' width={width / 2 - 50} alignItems='center' m={"$2"} >
-                        <View height={72} width={72} bg={item.color} rounded={"$full"} />
+                        <View height={80} width={80} bg={item.color} rounded={"$full"} />
                         <Text>{item.name}</Text>
                     </View>)}
                 />
