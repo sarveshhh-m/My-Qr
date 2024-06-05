@@ -43,7 +43,7 @@ const TabBar = React.memo(({ state, descriptors, navigation }: any) => {
                     height={72}
                     width={72}
                     style={{
-                        backgroundColor: '#6bb8ff',
+                        backgroundColor: '#5ba8ef',
                         marginBottom: 72,
                         borderRadius: 24,
                         transform: [{ rotate: '-45deg' }],

@@ -22,10 +22,10 @@ const AppNavigation = () => {
                 header: ({ route }) => <TabbarHeader title={route.name} />
             }}>
             <Tab.Screen name="Home" component={Home} />
-            <Tab.Screen name="Settings" component={Settings} />
+            <Tab.Screen name="History" component={History} />
             <Tab.Screen name="Scanner" options={{ headerShown: false }} component={Scanner} />
             <Tab.Screen name="Favourite" component={Favourite} />
-            <Tab.Screen name="History" component={History} />
+            <Tab.Screen name="Settings" component={Settings} />
         </Tab.Navigator>
     );
 };
