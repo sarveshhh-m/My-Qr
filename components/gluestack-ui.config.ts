@@ -26,6 +26,7 @@ export const gluestackUIConfig = createConfig({
   } as const,
   tokens: {
     colors: {
+      bg: "#121624",
       rose50: '#fff1f2',
       rose100: '#ffe4e6',
       rose200: '#fecdd3',
@@ -717,6 +718,6 @@ type Config = typeof gluestackUIConfig; // Assuming `config` is defined elsewher
 // type Components = typeof gluestackUIConfig.components; // Assuming `config` is defined elsewhere
 
 declare module '@gluestack-style/react' {
-  interface ICustomConfig extends Config {}
+  interface ICustomConfig extends Config { }
   // interface ICustomComponents extends Components {}
 }

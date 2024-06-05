@@ -1,12 +1,11 @@
-import { GluestackUIProvider, Text, View } from '@gluestack-ui/themed'
+import { GluestackUIProvider } from '@gluestack-ui/themed'
 import React from 'react'
+import RootNavigation from './src/navigation/RootNavigation'
 
 const App = () => {
   return (
     <GluestackUIProvider>
-      <View>
-        <Text>App</Text>
-      </View>
+      <RootNavigation />
     </GluestackUIProvider>
   )
 }
